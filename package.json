@@ -1,0 +1,11 @@
+{
+  "name": "@samuells/vue-tailwindcss-responsive-directive",
+  "description": "Vue directive for tailwind responsive variants.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuells/vue-tailwindcss-responsive-directive.git"
+  },
+  "main": "index.js"
+}
