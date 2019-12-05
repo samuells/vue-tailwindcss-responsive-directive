@@ -67,7 +67,7 @@ Create custom directive and name it "`screen`"
 
 ```js
 import Vue from 'vue'
-import { client as screen } from '@samuells/vue-tailwindcss-responsive-directive'
+import screen from '@samuells/vue-tailwindcss-responsive-directive'
 
 Vue.directive('screen', screen)
 ```
@@ -81,7 +81,7 @@ Create custom client side directive named "`screen`" as plugin file
 ```js
 // ./plugins/tailwind-screen.js
 import Vue from 'vue'
-import { client as screen } from '@samuells/vue-tailwindcss-responsive-directive'
+import screen from '@samuells/vue-tailwindcss-responsive-directive'
 
 Vue.directive('screen', screen)
 ```

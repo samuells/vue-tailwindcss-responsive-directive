@@ -8,11 +8,15 @@ function mapBreakpointsOnClasses(dirValue, origClasses = "") {
   return origClasses;
 }
 
+// Server side directive
+// In NuxtJS it is needed for Universal mode
 export const server = (node, dir) => {
   node.data.class += mapBreakpointsOnClasses(dir.value);
 };
 
-export const client = {
+// Client side directive (SPA mode)
+// In NuxtJS it is needed for SPA & Universal mode
+export default client = {
   bind(el, dir) {
     el.className += mapBreakpointsOnClasses(dir.value);
   },
@@ -22,7 +26,8 @@ export const client = {
   }
 };
 
-const extractor = {
+// This is extractor for PurgeCSS
+export const extractor = {
   extractor: class {
     static extract(content) {
       // clean content from unnecesary spaces
@@ -65,5 +70,3 @@ const extractor = {
   },
   extensions: ["vue"]
 };
-
-export default extractor
