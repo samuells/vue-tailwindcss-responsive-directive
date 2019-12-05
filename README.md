@@ -162,8 +162,8 @@ This is an edge case which is currently in testing and we are looking for better
 
 You can ping me on [twitter](www.twitter.com/samuelsnopko).
 
-Thx for help & brainstorming to:
-@peter9ke
-@manniL
+_Thx for help & brainstorming to:_
+- (@peter9ke)[https://github.com/peter9ke]
+- (@manniL)[https://github.com/manniL]
 
 {...💚}
