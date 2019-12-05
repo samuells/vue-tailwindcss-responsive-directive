@@ -20,7 +20,7 @@
     - [PurgeCSS && @nuxtjs/tailwindcss](#purgecss--nuxtjstailwindcss)
 - [Known Problems](#known-problems)
 - [MIT License](#mit-license)
-- [Author](#author)
+- [Author & Contributors](#author--contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -157,9 +157,13 @@ This is an edge case which is currently in testing and we are looking for better
 
 ## MIT License
 
-## Author
+## Author & Contributors
 © [Samuel Snopko](www.samuelsnopko.com)
 
 You can ping me on [twitter](www.twitter.com/samuelsnopko).
+
+Thx for help & brainstorming to:
+@peter9ke
+@manniL
 
 {...💚}
