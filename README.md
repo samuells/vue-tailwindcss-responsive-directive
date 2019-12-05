@@ -158,9 +158,9 @@ This is an edge case which is currently in testing and we are looking for better
 ## MIT License
 
 ## Author & Contributors
-© [Samuel Snopko](www.samuelsnopko.com)
+© [Samuel Snopko](https://samuelsnopko.com)
 
-You can ping me on [twitter](www.twitter.com/samuelsnopko).
+You can ping me on [twitter](https://twitter.com/samuelsnopko).
 
 _Thx for help & brainstorming to:_
 - [@peter9ke](https://github.com/peter9ke)
