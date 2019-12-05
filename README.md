@@ -67,9 +67,9 @@ Create custom directive and name it "`screen`"
 
 ```js
 import Vue from 'vue'
-import screen from '@samuells/vue-tailwindcss-responsive-directive'
+import { client } from '@samuells/vue-tailwindcss-responsive-directive'
 
-Vue.directive('screen', screen)
+Vue.directive('screen', client)
 ```
 
 ### NuxtJS
@@ -81,16 +81,16 @@ Create custom client side directive named "`screen`" as plugin file
 ```js
 // ./plugins/tailwind-screen.js
 import Vue from 'vue'
-import screen from '@samuells/vue-tailwindcss-responsive-directive'
+import { client }  from '@samuells/vue-tailwindcss-responsive-directive'
 
-Vue.directive('screen', screen)
+Vue.directive('screen', client)
 ```
 
 #### Server Side (Univeral mode)
 
 ```js
 // ./nuxt.config.js
-import { server as screenDirective } from '@samuells/vue-tailwindcss-responsive-directive'
+import { server } from '@samuells/vue-tailwindcss-responsive-directive'
 
 // add to setup
 export default {
@@ -98,7 +98,7 @@ export default {
   render: {
     bundleRenderer: {
       directives: {
-        screenDirective
+        server
       }
     }
   },
@@ -114,7 +114,7 @@ If you are using [@nuxtjs/tailwindcss](https://github.com/nuxt-community/nuxt-ta
 
 ```js
 // ./nuxt.config.js
-import { extractor as extractor } from '@samuells/vue-tailwindcss-responsive-directive'
+import { extractor } from '@samuells/vue-tailwindcss-responsive-directive'
 
 // add to setup
 export default {

@@ -16,7 +16,7 @@ export const server = (node, dir) => {
 
 // Client side directive (SPA mode)
 // In NuxtJS it is needed for SPA & Universal mode
-export default client = {
+export const client = {
   bind(el, dir) {
     el.className += mapBreakpointsOnClasses(dir.value);
   },
